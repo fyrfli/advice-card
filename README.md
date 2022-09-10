@@ -1,20 +1,6 @@
 # Frontend Mentor - Advice generator app solution
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+[@fyrfli](https://www.frontendmentor.io/profile/fyrfli)'s solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 
 ## Overview
@@ -28,7 +14,7 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
-
+![](images/advice-generator-screenshot.png)
 
 ### Links
 
@@ -42,22 +28,13 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- LessCSS
 
 ### What I learned
-
-
-### Continued development
-
-
-### Useful resources
-
+I learned mostly that if you don't use it, you lose it ... fast. I had to look up how to do event listeners again. 😆
 
 ## Author
 - Website - [Camille Frantz (@fyrfli)](https://fyrfli.io)
 - Frontend Mentor - [@fyrfli](https://www.frontendmentor.io/profile/fyrfli)
 - Twitter - [@fyrfli](https://www.twitter.com/fyrfli)
-
-## Acknowledgments
 
