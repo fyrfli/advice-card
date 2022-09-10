@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@640&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+// Primary colours
+@lightcyan: hsl(193, 38%, 86%);
+@neongreen: hsl(150, 100%, 66%);
+
+// Neutral colours
+@greyishblue: hsl(217, 19%, 38%);
+@darkgreyishblue: hsl(217, 19%, 24%);
+@darkblue: hsl(218, 23%, 16%);
+
+body {
+  background-color: @darkblue ;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  color: @lightcyan;
+}
+
+.container {
+  margin: auto;
+  color: @lightcyan;
+  margin-top: 18vh;
+}
+
+.card {
+  width: 343px;
+  background-color: @darkgreyishblue;
+  border-radius: 12px;
+  margin: auto;
+  text-align: center;
+}
+
+.card-hdr {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.25rem;
+  color: @neongreen;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.advice {
+  text-align: center;
+  padding: 1rem;
+}
+
+.divider {
+  padding: 1rem;
+}
+
+.divider-img {
+  display: block;
+  margin: auto;
+  padding: 1.2rem 0;
+}
+
+.roll-the-dice {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background-color: @neongreen;
+  margin: auto;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.roll-the-dice:hover {
+  box-shadow: 0 0 18px @neongreen;
+}
+
+.dice:active {
+  width: 30px;
+  height: 30px;
+}
+
+.dice {
+  display: block;
+  width: 24px;
+  height: 24px;
+  color: @neongreen;
+  background-color: @neongreen;
+  margin: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+}
+
+.footer a {
+  color: darken(@neongreen, 20%);
+}
+
+@media only screen and (min-width: 980px) {
+  .card {
+    width: 540px;
+  }
+}
